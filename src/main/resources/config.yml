@@ -1,0 +1,38 @@
+Global:
+  MySQL:
+    Use: false
+    Hostname: 'example.com'
+    Port: 8300
+    Username: 'Test'
+    Password: 'tseT'
+    Database: 'GlobalDatabase'
+  ChatFormat: '%prefix %n&f: %m'
+BanSettings:
+  Exceptions:
+    - 'merofunk'
+    - 'ABCD'
+  BanSound: ''
+  MinReasonLength: 4
+PrefixSettings:
+  BlacklistedPrefixes:
+  - '[Admin]'
+  - '[Owner]'
+  - '[Creator]'
+  - '[Moderator]'
+  - '[Mod]'
+  - '[Own]'
+  MinPrefixLength: 4
+  MaxPrefixLength: 15
+NicknamesSettings:
+  BlacklistedNicknames:
+  - 'merofunk'
+  - 'Notch'
+  - 'Herobrine'
+  MinNicknameLength: 4
+  MaxNicknameLength: 17
+  UseSymbol: true
+  NicknameSymbol: '~'
+NameTagSettings:
+  MinNameTagLength: 4
+Broadcast:
+  MinMessageLength: 4

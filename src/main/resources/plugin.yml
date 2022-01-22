@@ -1,0 +1,38 @@
+name: EssenCore
+version: 1.0
+main: vk.com.merofunk.esscore.EssCore
+softdepend: [Vault]
+commands:
+  configtest:
+    description: Configuration test
+    usage:
+  gamemode:
+    description: Change your or others gamemode
+    usage:
+  gm:
+    description: Change your or others gamemode
+    usage:
+  ban:
+    description: Ban a person
+    usage:
+  configrel:
+    description: Reload specified configuration
+    usage:
+  confrel:
+    description: Reload specified configuration
+    usage:
+  broadcast:
+    description: Broadcast a message to online players
+    usage:
+  prefix:
+    description: Set a custom prefix
+    usage:
+  nick:
+    description: Set nickname
+    usage:
+  tabname:
+    description: Sets Tablist name
+    usage:
+  nametag:
+    description: Sets a nametag
+    usage:
